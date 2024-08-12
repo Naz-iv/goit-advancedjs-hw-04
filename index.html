@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Images</title>
+  <script type="module" crossorigin src="/goit-advancedjs-hw-03/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-0Fq3u7cb.js">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-DumFYO8Z.css">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-C8wXZiZr.css">
+</head>
+
+<body>
+  <div class="search-panel">
+    <form class="search">
+      <input type="text" name="search-query" placeholder="search images..." />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <div class="results-panel">
+    <ul class="results"></ul>
+  </div>
+
+  <!-- Load More button -->
+  <button id="load-more" style="display: none;">Load More</button>
+
+  <!-- Loader moved under Load More button -->
+  <div class="loader-panel" style="display: none;">
+    <span class="loader"></span>
+  </div>
+
+</body>
+
+</html>
